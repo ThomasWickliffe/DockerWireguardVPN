@@ -91,6 +91,7 @@ Now connect your pc to Wireguard
 1) You need to install Wireguard VPN on to your computer from the website <br>
 >- `https://www.wireguard.com/install/` <br>
 
+
 2) Next you need to create a new empty tunnel on Wireguard VPN and add the information found in the configuration file. In order to access this information enter the following commands
 >- `cd ~/wireguard/` <br>
 > Look at what is inside with the `ls` command and enter into the ***config*** directory <br>
@@ -102,6 +103,7 @@ Now connect your pc to Wireguard
 > Here you will see the configuration file "***peer_pc2.conf***" and look at what is inside with the command <br>
 >- `cat peer_pc2.conf` <br> 
 > Copy this file's information and paste it into the Wireguard VPN on your computer to create the tunnel. <br>
+
 
 3) Finish creating the tunnel and activate the VPN for your computer.
 
