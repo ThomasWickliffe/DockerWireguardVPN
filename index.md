@@ -4,8 +4,10 @@ After creating a droplet on Digital Ocean, open the console and begin installing
 ### **INSTALLING DOCKER**
 1 install necessary tools <br>
 >-    `sudo apt install apt-transport-https ca-certificates curl software-properties-common -y` <br>
+
 2 Add docker key <br>
 >-    `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br>
+
 3 Add docker repo (32 bit / 64 bit OS) <br>
 >-   ` sudo add-apt-repository \` <br> `"deb [arch=amd64] https://download.docker.com/linux/ubuntu \` <br> `  $(lsb_release -cs) \` <br> ` stable"` <br>
 4 switch to correct repo <br>
