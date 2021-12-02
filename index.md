@@ -32,7 +32,8 @@ Now its time to set up Wireguard
 1) Run these commands on the server to create the directories needed and then enter the .yml file 
 >-    `mkdir -p ~/wireguard/`
 >-    `mkdir -p ~/wireguard/config/`
->-    `nano ~/wireguard/docker-compose.yml`
+>-    `nano ~/wireguard/docker-compose.yml`<br>
+
 2) Enter the following into the .yml file and dont forget to edit your timezone, use the proper ip address for your server, as well as set your ports to the desired numbers. Check the **bold** properties for refrence.
   >    version: '3.8' <br>
   >    services: <br>
@@ -64,7 +65,8 @@ Now its time to set up Wireguard
   >    &nbsp;&nbsp;sysctls: <br>
   >    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - net.ipv4.conf.all.src_valid_mark=1 <br>
  
- 3) Save and exit the file after edit is complete
+ 3) Save and exit the file after edit is complete <br>
+ 
  4) Start Wireguard by using cd to enter the wireguard directory and then run it <br>
  >-   `cd ~/wireguard/`
  >-   `docker-compose up -d` <br>
@@ -74,9 +76,11 @@ END OF WIREGUARD SETUP
 Now its time to connect your phone to Wireguard
 
 ### **CONNECT PHONE TO WIREGUARD**
-1) Download wireguard app on oyour phone
+1) Download wireguard app on oyour phone <br>
+
 2) Run this code to access a QR code that you can scan
-      docker-compose logs -f wireguard
+      docker-compose logs -f wireguard <br>
+      
 3) Name your tunnel and turn it on 
 
 END OF CONNECT PHONE TO WIREGUARD
@@ -85,7 +89,8 @@ Now connect your pc to Wireguard
 
 ### **CONNECT COMPUTER TO WIREGUARD**
 1) You need to install Wireguard VPN on to your computer from the website <br>
->- `https://www.wireguard.com/install/`
+>- `https://www.wireguard.com/install/` <br>
+
 2) Next you need to create a new empty tunnel on Wireguard VPN and add the information found in the configuration file. In order to access this information enter the following commands
 >- `cd ~/wireguard/` <br>
 > Look at what is inside with the `ls` command and enter into the ***config*** directory <br>
@@ -97,6 +102,7 @@ Now connect your pc to Wireguard
 > Here you will see the configuration file "***peer_pc2.conf***" and look at what is inside with the command <br>
 >- `cat peer_pc2.conf` <br> 
 > Copy this file's information and paste it into the Wireguard VPN on your computer to create the tunnel. <br>
+
 3) Finish creating the tunnel and activate the VPN for your computer.
 
 END OF CONNECT COMPUTER TO WIREGUARD
