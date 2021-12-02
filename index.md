@@ -2,19 +2,19 @@
 After creating a droplet on Digital Ocean, open the console and begin installing docker.
 
 ### **INSTALLING DOCKER**
-1) install necessary tools <br>
+1 install necessary tools <br>
 >-    `sudo apt install apt-transport-https ca-certificates curl software-properties-common -y` <br>
-2) Add docker key <br>
+2 Add docker key <br>
 >-    `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br>
-3) Add docker repo (32 bit / 64 bit OS) <br>
+3 Add docker repo (32 bit / 64 bit OS) <br>
 >-   ` sudo add-apt-repository \` <br> `"deb [arch=amd64] https://download.docker.com/linux/ubuntu \` <br> `  $(lsb_release -cs) \` <br> ` stable"` <br>
-4) switch to correct repo <br>
+4 switch to correct repo <br>
 >-   `apt-cache policy docker-ce` <br>
-5) Install Docker <br>
+5 Install Docker <br>
 >-   `sudo apt install docker-ce -y` <br>
-6) Install Docker-Compose <br>
+6 Install Docker-Compose <br>
 >-   ` sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose` <br>
-7) Set Permissions <br>
+7 Set Permissions <br>
 >-   `sudo chmod +x /usr/local/bin/docker-compose` <br>
 
 END OF DOCKER INSTALL
