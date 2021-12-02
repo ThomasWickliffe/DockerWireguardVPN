@@ -10,12 +10,16 @@ After creating a droplet on Digital Ocean, open the console and begin installing
 
 3 Add docker repo (32 bit / 64 bit OS) <br>
 >-   ` sudo add-apt-repository \` <br> `"deb [arch=amd64] https://download.docker.com/linux/ubuntu \` <br> `  $(lsb_release -cs) \` <br> ` stable"` <br>
+
 4 switch to correct repo <br>
 >-   `apt-cache policy docker-ce` <br>
+
 5 Install Docker <br>
 >-   `sudo apt install docker-ce -y` <br>
+
 6 Install Docker-Compose <br>
 >-   ` sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose` <br>
+
 7 Set Permissions <br>
 >-   `sudo chmod +x /usr/local/bin/docker-compose` <br>
 
