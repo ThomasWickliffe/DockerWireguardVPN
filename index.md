@@ -79,7 +79,7 @@ Now its time to connect your phone to Wireguard
 1) Download wireguard app on oyour phone <br>
 
 2) Run this code to access a QR code that you can scan
-      docker-compose logs -f wireguard <br>
+>- `docker-compose logs -f wireguard` <br>
       
 3) Name your tunnel and turn it on 
 
