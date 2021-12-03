@@ -104,7 +104,7 @@ Now connect your pc to Wireguard
 >- `cat peer_pc2.conf` <br> 
 > Copy this file's information and paste it into the Wireguard VPN on your computer to create the tunnel. <br>
 
-![Empty Tunnel](DockerWireguardVPN/Docs/assets/images/Access the conf file.png)
+![Empty Tunnel](/Docs/assets/images/Access the conf file.png)
 
 3) Finish creating the tunnel and activate the VPN for your computer.
 
