@@ -94,7 +94,10 @@ Now connect your pc to Wireguard
 
 2) Next you need to create a new empty tunnel on Wireguard VPN and add the information found in the configuration file. 
 
+
 ![create empty tunnel](/Docs/assets/images/create new tunnel1.png)
+
+
 
 ![create empty tunnel](/Docs/assets/images/create new tunnel2.png)
 
@@ -115,13 +118,17 @@ In order to access this information enter the following commands
 This is a visual representation of the commands above, followed by the "***peer_pc2.conf***" file contents
 
 
+
 ![find the conf file](/Docs/assets/images/Access the conf file.png)
+
 
 
 ![config file info](/Docs/assets/images/conf file information.png)
 
 
+
 3) Finish creating the tunnel and activate the VPN for your computer.
+
 
 ![create empty tunnel](/Docs/assets/images/empty tunnel creation.png)
 
@@ -137,7 +144,9 @@ After Activating
 ![computer Proof](/Docs/assets/images/computerVPNproof.png)
 
 
+
 ![comp after](/Docs/assets/images/After VPN.png)
+
 
 
 END OF CONNECT COMPUTER TO WIREGUARD
