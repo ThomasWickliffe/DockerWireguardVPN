@@ -83,6 +83,21 @@ Now its time to connect your phone to Wireguard
       
 3) Name your tunnel and turn it on 
 
+Before Activation
+
+![Phone before VPN](/Docs/assets/images/Phone Before.PNG)
+
+
+Activating the VPN
+
+![phone activating VPN](/Docs/assets/images/PhoneVPNProof.PNG)
+
+
+After Activation
+
+![phone after VPN](/Docs/assets/images/Phone After.PNG)
+
+
 END OF CONNECT PHONE TO WIREGUARD
 
 Now connect your pc to Wireguard
