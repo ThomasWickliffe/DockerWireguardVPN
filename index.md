@@ -110,11 +110,13 @@ Now connect your pc to Wireguard
 
 3) Finish creating the tunnel and activate the VPN for your computer.
 
-![computer Proof](/Docs/assets/images/computerVPNproof.png)
-
+Before Activating
 
 ![comp before](/Docs/assets/images/before VPN.png)
 
+After Activating
+
+![computer Proof](/Docs/assets/images/computerVPNproof.png)
 
 ![comp after](/Docs/assets/images/After VPN.png)
 
