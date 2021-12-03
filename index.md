@@ -112,13 +112,17 @@ Now connect your pc to Wireguard
 
 Before Activating
 
+
 ![comp before](/Docs/assets/images/before VPN.png)
+
 
 After Activating
 
 ![computer Proof](/Docs/assets/images/computerVPNproof.png)
 
+
 ![comp after](/Docs/assets/images/After VPN.png)
+
 
 END OF CONNECT COMPUTER TO WIREGUARD
 
