@@ -104,9 +104,13 @@ Now connect your pc to Wireguard
 >- `cat peer_pc2.conf` <br> 
 > Copy this file's information and paste it into the Wireguard VPN on your computer to create the tunnel. <br>
 
-![Tunnel](/Docs/assets/images/Access the conf file.png)
+![config file info](/Docs/assets/images/Access the conf file.png)
 
 3) Finish creating the tunnel and activate the VPN for your computer.
+
+![computer Proof](/Docs/assets/images/computerVPNproof.png)
+![comp before](/Docs/assets/images/before VPN.png)
+![comp after](/Docs/assets/images/After VPN.png)
 
 END OF CONNECT COMPUTER TO WIREGUARD
 
