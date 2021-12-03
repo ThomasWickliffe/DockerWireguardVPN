@@ -2,7 +2,7 @@
 After creating a droplet on Digital Ocean, open the console and begin installing docker.
 
 ### **INSTALLING DOCKER**
-1) install necessary tools <br>
+1) Install necessary tools <br>
 >-    `sudo apt install apt-transport-https ca-certificates curl software-properties-common -y` <br>
 
 2) Add docker key <br>
@@ -76,7 +76,7 @@ END OF WIREGUARD SETUP
 Now its time to connect your phone to Wireguard
 
 ### **CONNECT PHONE TO WIREGUARD**
-1) Download wireguard app on oyour phone <br>
+1) Download wireguard app on to your phone <br>
 
 2) Run this code to access a QR code that you can scan <br>
 >- `docker-compose logs -f wireguard` <br>
