@@ -92,7 +92,15 @@ Now connect your pc to Wireguard
 >- `https://www.wireguard.com/install/` <br>
 
 
-2) Next you need to create a new empty tunnel on Wireguard VPN and add the information found in the configuration file. In order to access this information enter the following commands
+2) Next you need to create a new empty tunnel on Wireguard VPN and add the information found in the configuration file. 
+
+![create empty tunnel](/Docs/assets/images/create new tunnel1.png)
+
+![create empty tunnel](/Docs/assets/images/create new tunnel2.png)
+
+
+
+In order to access this information enter the following commands
 >- `cd ~/wireguard/` <br>
 > Look at what is inside with the `ls` command and enter into the ***config*** directory <br>
 >- `cd config` <br>
@@ -114,6 +122,9 @@ This is a visual representation of the commands above, followed by the "***peer_
 
 
 3) Finish creating the tunnel and activate the VPN for your computer.
+
+![create empty tunnel](/Docs/assets/images/empty tunnel creation.png)
+
 
 Before Activating
 
